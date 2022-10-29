@@ -1,0 +1,33 @@
+.race-header-container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 30px;
+
+  .race-header-list-label {
+    text-align: center;
+  }
+
+  .race-header-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 50%;
+    margin: auto;
+
+    .race-list-item {
+      margin: auto;
+      margin-right: 20px;
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    & li:last-child {
+      text-align: center;
+      margin: 0;
+    }
+  }
+}

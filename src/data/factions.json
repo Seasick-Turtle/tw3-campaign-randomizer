@@ -1,0 +1,185 @@
+{
+  "Beastmen": {
+    "Harbinger of Disaster": { "flag": "wh2_dlc17_bst_malagor_mon_256.png" },
+    "Slaughterhorn Tribe": { "flag": "wh2_dlc17_bst_taurox_mon_256.png" },
+    "Warherd of the One-Eye": { "flag": "wh_dlc03_bst_beastmen_mon_256.png" },
+    "Warherd of the Shadowgave": {
+      "flag": "wh_dlc05_bst_beastmen_morghur_herd_mon_256.png"
+    }
+  },
+  "Bretonnia": {
+    "Bordeleaux": { "flag": "wh_main_brt_bordeleaux_mon_256.png" },
+    "Carcassonne": { "flag": "wh_main_brt_carcassonne_mon_256.png" },
+    "Chevaliers de Lyonesse": {
+      "flag": "wh_dlc14_brt_chevaliers_de_lyonesse_mon_256.png"
+    },
+    "Couronne": { "flag": "wh_main_brt_bretonnia_mon_256.png" }
+  },
+  "Daemons of Chaos": {
+    "Legion of Chaos": { "flag": "wh3_main_dae_daemon_prince_mon_256.png" }
+  },
+  "Dark Elves": {
+    "Cult of Pleasure": {
+      "flag": "wh2_main_def_cult_of_pleasure_mon_256.png"
+    },
+    "Hag Graef": { "flag": "wh2_main_def_hag_graef_mon_256.png" },
+    "Har Ganeth": { "flag": "wh2_main_def_har_ganeth_mon_256.png" },
+    "Naggarond": { "flag": "wh2_main_def_naggarond_mon_256.png" },
+    "The Blessed Dread": {
+      "flag": "wh2_dlc11_def_the_blessed_dread_mon_256.png"
+    },
+    "The Thousand Maws": { "flag": "wh2_twa03_def_rakarth_mon_256.png" }
+  },
+  "Dwarfs": {
+    "Clan Angrund": { "flag": "wh_dlc06_dwf_clan_angrund_mon_256.png" },
+    "Ironbrow's Expedition": { "flag": "wh2_dlc17_dwf_thorek_mon_256.png" },
+    "Karak Kadrin": { "flag": "wh_main_dwf_karak_kadrin_mon_256.png" },
+    "Karaz-a-Karak": { "flag": "wh_main_dwf_dwarfs_mon_256.png" },
+    "The Ancestral Throng": {
+      "flag": "wh3_main_dwf_the_ancestral_throng_mon_256.png"
+    }
+  },
+  "Grand Cathay": {
+    "The Northern Provinces": {
+      "flag": "wh3_main_cth_the_northern_provinces_mon_256.png"
+    },
+    "The Western Provinces": {
+      "flag": "wh3_main_cth_the_western_provinces_mon_256.png"
+    }
+  },
+  "Greenskins": {
+    "Bonerattlaz": { "flag": "wh2_dlc15_grn_bonerattlaz_mon_256.png" },
+    "Broken Axe": { "flag": "wh2_dlc15_grn_broken_axe_mon_256.png" },
+    "Crooked Moon": { "flag": "wh_main_grn_crooked_moon_mon_256.png" },
+    "Grimgor's 'Ardboyz": { "flag": "wh_main_grn_greenskins_mon_256.png" },
+    "The Bloody Handz": {
+      "flag": "wh_main_grn_orcs_of_the_bloody_hand_mon_256.png"
+    }
+  },
+  "High Elves": {
+    "Avelorn": { "flag": "wh2_main_hef_avelorn_mon_256.png" },
+    "Eataine": { "flag": "wh2_main_hef_eataine_mon_256.png" },
+    "Knights of Caledor": { "flag": "wh2_main_hef_caledor_mon_256.png" },
+    "Nagarythe": { "flag": "wh2_main_hef_nagarythe_mon_256.png" },
+    "Order of Loremasters": {
+      "flag": "wh2_main_hef_order_of_loremasters_mon_256.png"
+    },
+    "Yvresse": { "flag": "wh2_main_hef_yvresse_mon_256.png" }
+  },
+  "Khorne": {
+    "Exiles of Khorne": { "flag": "wh3_main_kho_exiles_of_khorne_mon_256.png" }
+  },
+
+  "Kislev": {
+    "Kislev Expedition": {
+      "flag": "wh3_main_ksl_kislev_expedition_mon_256.png"
+    },
+    "The Great Orthodoxy": {
+      "flag": "wh3_main_ksl_the_great_orthodoxy_mon_256.png"
+    },
+    "The Ice Court": { "flag": "wh3_main_ksl_the_ice_court_mon_256.png" },
+    "Ursun Revivalists": {
+      "flag": "wh3_main_ksl_ursun_revivalists_mon_256.png"
+    }
+  },
+  "Lizardmen": {
+    "Cult of Sotek": { "flag": "wh2_dlc12_lzd_cult_of_sotek_mon_256.png" },
+    "Ghosts of Pahuax": { "flag": "wh2_dlc17_lzd_oxyotl_mon_256.png" },
+    "Hexoatl": { "flag": "wh2_main_lzd_hexoatl_mon_256.png" },
+    "Itza": { "flag": "wh2_dlc14_lzd_itz_itza_tribe_mon_256.png" },
+    "Last Defenders": { "flag": "wh2_main_lzd_last_defenders_mon_256.png" },
+    "Spirit of the Jungle": {
+      "flag": "wh2_dlc13_lzd_spirits_of_the_jungle_mon_256.png"
+    },
+    "Tlaqua": { "flag": "wh2_main_lzd_tlaqua_mon_256.png" }
+  },
+  "Norsca": {
+    "Wintertooth": { "flag": "wh_dlc08_nor_wintertooth_mon_256.png" },
+    "World Walkers": { "flag": "wh_dlc08_nor_norsca_mon_256.png" }
+  },
+  "Nurgle": {
+    "Poxmakers of Nurgle": {
+      "flag": "wh3_main_nur_poxmakers_of_nurgle_mon_256.png"
+    }
+  },
+  "Ogre Kingdoms": {
+    "Disciples of the Maw": {
+      "flag": "wh3_main_ogr_disciples_of_the_maw_mon_256.png"
+    },
+    "Goldtooth": { "flag": "wh3_main_ogr_goldtooth_mon_256.png" }
+  },
+  "Skaven": {
+    "Clan Eshin": { "flag": "wh2_main_skv_clan_eshin_mon_256.png" },
+    "Clan Mors": { "flag": "wh2_main_skv_clan_mors_mon_256.png" },
+    "Clan Moulder": { "flag": "wh2_main_skv_clan_moulder_mon_256.png" },
+    "Clan Pestilens": { "flag": "wh2_main_skv_clan_pestilens_mon_256.png" },
+    "Clan Rictus": { "flag": "wh2_dlc09_skv_clan_rictus_mon_256.png" },
+    "Clan Skryre": { "flag": "wh2_main_skv_clan_skryre_mon_256.png" }
+  },
+  "Slaanesh": {
+    "Seducers of Slaanesh": {
+      "flag": "wh3_main_sla_seducers_of_slaanesh_mon_256.png"
+    }
+  },
+  "The Empire": {
+    "Cult of Sigmar": { "flag": "wh3_main_emp_cult_of_sigmar_mon_256.png" },
+    "Reikland": { "flag": "wh_main_emp_empire_mon_256.png" },
+    "The Golden Order": { "flag": "wh2_dlc13_emp_golden_order_mon_256.png" },
+    "The Huntsmarshal's Expedition": {
+      "flag": "wh2_dlc13_emp_the_huntmarshals_expedition_mon_256.png"
+    }
+  },
+  "Tomb Kings": {
+    "Court of Lybaras": { "flag": "wh2_dlc09_tmb_lybaras_mon_256.png" },
+    "Exiles of Nehek": { "flag": "wh2_dlc09_tmb_exiles_of_nehek_mon_256.png" },
+    "Followers of Nagash": {
+      "flag": "wh2_dlc09_tmb_followers_of_nagash_mon_256.png"
+    },
+    "Khemri": { "flag": "wh2_dlc09_tmb_khemri_mon_256.png" }
+  },
+  "Tzeentch": {
+    "Oracles of Tzeentch": {
+      "flag": "wh3_main_tze_oracles_of_tzeentch_mon_256.png"
+    }
+  },
+  "Vampire Coast": {
+    "Pirates of Sartosa": {
+      "flag": "wh2_dlc11_cst_pirates_of_sartosa_mon_256.png"
+    },
+    "The Awakened": { "flag": "wh2_dlc11_cst_vampire_coast_mon_256.png" },
+    "The Dreadfleet": {
+      "flag": "wh2_dlc11_def_the_blessed_dread_mon_256.png"
+    },
+    "The Drowned": { "flag": "wh2_dlc11_cst_the_drowned_mon_256.png" }
+  },
+  "Vampire Counts": {
+    "Caravan of Blue Roses": {
+      "flag": "wh3_main_vmp_caravan_of_blue_roses_mon_256.png"
+    },
+    "Sylvania": { "flag": "wh_dlc07_vmp_von_carstein_mon_256.png" },
+    "The Barrow Legion": {
+      "flag": "wh2_dlc11_vmp_the_barrow_legion_mon_256.png"
+    },
+    "The Drakenhof Conclave": {
+      "flag": "wh_main_vmp_vampire_counts_mon_256.png"
+    }
+  },
+  "Warriors of Chaos": {
+    "Heralds of the Tempest": { "flag": "wh3_dlc20_chs_kholek_mon_256.png" },
+    "Legion of the Gorequeen": { "flag": "wh3_dlc20_chs_valkia_mon_256.png" },
+    "Puppets of Misrule": { "flag": "wh3_dlc20_chs_vilitch_mon_256.png" },
+    "Shadow Legion": { "flag": "wh3_main_dae_belakor_mon_256.png" },
+    "The Decadent Host": { "flag": "wh3_dlc20_chs_sigvald_mon_256.png" },
+    "The Ecstatic Legions": { "flag": "wh3_dlc20_chs_azazel_mon_256.png" },
+    "The Fecundites": { "flag": "wh3_dlc20_chs_festus_mon_256.png" },
+    "Warhost of the Apocalypse": { "flag": "wh_main_chs_chaos_mon_256.png" }
+  },
+  "Wood Elves": {
+    "Argwylon": { "flag": "wh_dlc05_wef_argwylon_mon_256.png" },
+    "Heralds of Ariel": {
+      "flag": "wh2_dlc16_wef_sisters_of_twilight_mon_256.png"
+    },
+    "Talsyn": { "flag": "wh_dlc05_wef_wood_elves_mon_256.png" },
+    "Wargrove of Woe": { "flag": "wh2_dlc16_wef_drycha_mon_256.png" }
+  }
+}
