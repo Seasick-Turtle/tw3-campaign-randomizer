@@ -1,7 +1,6 @@
 import React, { useMemo } from 'react';
-import factions from '../data/factions.json';
 
-const RaceHeader = () => {
+const Races = ({ factions, setSelectedRace }) => {
   const raceList = useMemo(
     () => Object.keys(factions),
     [Object.keys(factions)]
@@ -13,8 +12,16 @@ const RaceHeader = () => {
       <ul className="race-header-list">
         {raceList?.length &&
           raceList.map((race, index) => (
-            <li className="race-list-item" id={race} key={index}>
-              {race}
+            <li key={index} className="race-list-item">
+              <button
+                className="race-list-item-button"
+                onClick={() => {
+                  setSelectedRace(race);
+                }}
+                id={race}
+              >
+                {race}
+              </button>
             </li>
           ))}
       </ul>
@@ -22,4 +29,4 @@ const RaceHeader = () => {
   );
 };
 
-export default RaceHeader;
+export default Races;

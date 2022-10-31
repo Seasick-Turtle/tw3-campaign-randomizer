@@ -1,14 +1,16 @@
 import './App.scss';
-import RaceHeader from './RaceHeader';
-
-function getImageUrl(name) {
-  return new URL(`./assets/images/${name}`, import.meta.url).href;
-}
+import Races from './Races';
+import { useState } from 'react';
+import factions from '../data/factions.json';
+import Factions from './Factions';
 
 function App() {
+  const [selectedRace, setSelectedRace] = useState('');
+
   return (
     <div className="App">
-      <RaceHeader />
+      <Races factions={factions} setSelectedRace={setSelectedRace} />
+      <Factions factions={factions} selectedRace={selectedRace} />
     </div>
   );
 }
