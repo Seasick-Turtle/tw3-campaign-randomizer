@@ -8,12 +8,30 @@ const getImageUrl = (name) => {
 const getFactionKey = (selectedRace, flag) =>
   Object.keys(selectedRace).find((key) => selectedRace[key].flag === flag);
 
-const Factions = ({ factions, selectedRace }) => {
+const Factions = ({
+  factions,
+  selectedRace,
+  selectedFaction,
+  setSelectedFaction,
+}) => {
   const [factionKeys, setFactionKeys] = useState([]);
   const [selectedKey, setSelectedKey] = useState();
-  const [selectedFaction, setSelectedFaction] = useState();
 
   useEffect(() => {
+    if (
+      selectedFaction &&
+      selectedRace &&
+      factions?.[selectedRace]?.[selectedFaction]
+    ) {
+      setSelectedFaction(factions[selectedRace][selectedFaction].flag);
+      setSelectedKey(
+        getFactionKey(
+          factions[selectedRace],
+          factions[selectedRace][selectedFaction].flag
+        )
+      );
+    }
+
     if (factions && selectedRace) {
       setFactionKeys(Object.entries(factions[selectedRace]));
     }
@@ -24,7 +42,7 @@ const Factions = ({ factions, selectedRace }) => {
       {selectedRace && factionKeys && (
         <span className="faction-flags">
           {factionKeys.map(([key, value], index) => (
-            <span className="faction-flag-group">
+            <span key={`span-${index}`} className="faction-flag-group">
               <img
                 onClick={() => {
                   setSelectedFaction(value.flag);
@@ -32,11 +50,11 @@ const Factions = ({ factions, selectedRace }) => {
                     getFactionKey(factions[selectedRace], value.flag)
                   );
                 }}
-                key={index}
+                key={`img-${index}`}
                 className="faction-flag"
                 src={getImageUrl(value.flag)}
               />
-              <p>{key}</p>
+              <p key={`p-${index}`}>{key}</p>
             </span>
           ))}
         </span>

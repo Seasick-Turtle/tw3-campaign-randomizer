@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react';
+import Randomization from './Randomization';
 
-const Races = ({ factions, setSelectedRace }) => {
+const Races = ({ factions, setSelectedRace, setSelectedFaction }) => {
   const raceList = useMemo(
     () => Object.keys(factions),
     [Object.keys(factions)]
@@ -9,6 +10,11 @@ const Races = ({ factions, setSelectedRace }) => {
   return (
     <div className="race-header-container">
       <label className="race-header-list-label">Races</label>
+
+      <Randomization
+        setSelectedRace={setSelectedRace}
+        setSelectedFaction={setSelectedFaction}
+      />
       <ul className="race-header-list">
         {raceList?.length &&
           raceList.map((race, index) => (
